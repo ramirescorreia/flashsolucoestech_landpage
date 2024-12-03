@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reem Kufi", sans-serif !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.app {
+    min-height: 100vh;
+    width: 85vw;
+    max-width: 1900px;
+    margin: 0rem auto;
+}
+  
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+    .navbar-links-container a {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+    .primary-button {
+      font-size: 1rem;
+    }
+    .home-bannerImage-container {
+      max-width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    /* navbar*/
+    .nav-logo-container {
+      max-width: 100px;
+    }
+    .navbar-links-container {
+      display: none;
+    }
+    .navbar-menu-container {
+      display: flex;
+    }
+}
+
+.primary-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: rgb(46, 48, 47);
+    max-width: 600px;
+}
+
+.primary-text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: #6a6a6a;
+    margin: 1.5 rem 0rem;
+}
+
+.secondary-button {
+    padding: 1rem 2.5rem;
+    background-color: rgb(49, 138, 138);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.secondary-button:hover {
+    background-color: rgb(122, 202, 202);
+}
+
+.secondary-button svg {
+    margin-left: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.primary-subheading {
+    font-weight: 700;
+    color: rgb(53, 126, 126);
+    font-size: 3rem;
+}
+
+.work-section-wrapper {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.work-section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .home-bannerImage-container {
+    display: none;
+  }
+}

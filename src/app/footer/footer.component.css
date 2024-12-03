@@ -1,0 +1,46 @@
+.footer-wrapper {
+    margin: 6rem 10rem;
+    display: flex;
+}
+  
+.footer-logo-container {
+    width: 175px;
+    height: 130px;
+}
+  
+.footer-icons {
+    margin-top: 2rem;
+}
+  
+.footer-icons fa-icon {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: #515151;
+}
+  
+.footer-section-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.footer-section-two {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+  
+.footer-section-colums {
+    display: flex;
+    flex-direction: column;
+    min-width: 190px;
+}
+  
+.footer-section-colums span {
+    margin: 0.25rem 0;
+    font-weight: 600;
+    color: #1d1c1c;
+    cursor: pointer;
+}

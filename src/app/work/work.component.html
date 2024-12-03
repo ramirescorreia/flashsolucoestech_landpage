@@ -1,0 +1,21 @@
+<div class="work-section-wrapper">
+    <div class="work-section-top">
+      <p class="primary-subheading">Nosso Trabalho</p>
+      <h1>Cras eros sem</h1>
+      <p class="primary-text">
+        consectetur vitae arcu vel, pharetra sagittis turpis. Vestíbulo eu
+        mattis mauris, Curabitur sollicitudin efficitur sapien blandit
+        volutpat. Ut ultrices scelerisque justo, non euismod arcu.
+      </p>
+    </div>
+
+    <div class="work-section-botton">
+        @for(skill of skills; track skill) {
+          <div class="work-section-info">
+            <fa-icon class="info-boxes-img-container" [icon]=skill.image></fa-icon>
+            <h2>{{skill.title}}</h2>
+            <p>{{skill.text}}</p>
+          </div>
+        }
+    </div>
+  </div>

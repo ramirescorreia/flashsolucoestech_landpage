@@ -1,0 +1,42 @@
+.work-section-top h1 {
+    max-width: 700px !important;
+}
+  
+.work-section-info {
+    width: 290px;
+    min-height: 350px;
+    background-color: rgb(228, 228, 228);
+    padding: 1rem 2rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    color: #413f3f;
+    margin: 1rem 2rem;
+}
+  
+.work-section-info h2 {
+    margin: 1rem 0;
+}
+  
+.work-section-info p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+  
+.work-section-botton {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-boxes-img-container {
+    font-size: 100px;
+    color: rgb(16, 126, 126);
+}

@@ -1,0 +1,34 @@
+.home-banner-container {
+    position: relative;
+    display: flex;
+    padding-top: 4rem;
+}
+
+.home-bannerImage-container {
+    position: absolute;
+    top: -100px;
+    right: -150px;
+    z-index: -2;
+    max-width: 100%;
+}
+
+.home-image-section {
+    flex: 1;
+    display: flex;
+}
+
+.home-primary-image img {
+    width: 750px;
+    height: 640px;
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+.home-text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
