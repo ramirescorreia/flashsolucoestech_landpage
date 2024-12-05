@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
+  abriuMenuHamburguer:boolean = false;
+
+  public manageMenu():void{
+    this.abriuMenuHamburguer = !this.abriuMenuHamburguer;
+  }
 
 }
