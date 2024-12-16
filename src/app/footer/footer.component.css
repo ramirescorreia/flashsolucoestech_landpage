@@ -44,3 +44,48 @@
     color: #1d1c1c;
     cursor: pointer;
 }
+
+@media screen and (max-width: 950px) {
+    .footer-wrapper {
+        position: relative;
+        display: block;
+    }
+      
+    .footer-logo-container {
+        width: 175px;
+        height: 130px;
+    }
+      
+    .footer-icons {
+        margin-top: 2rem;
+    }
+      
+    .footer-icons fa-icon {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+        color: #515151;
+    }
+      
+    .footer-section-one {
+        justify-self: center;
+    }
+      
+    .footer-section-two {
+        display: grid;
+        text-align: center;
+        margin: 0px 10px;
+    }
+      
+    .footer-section-colums {
+        display: inline-flex;
+        flex-direction: column;
+        min-width: 190px;
+    }
+      
+    .footer-section-colums span {
+        margin: 0.25rem 0;
+        font-weight: 600;
+        color: #1d1c1c;
+        cursor: pointer;
+    }
+}
