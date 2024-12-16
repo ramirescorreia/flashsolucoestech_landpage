@@ -57,6 +57,7 @@
     }
       
     .footer-icons {
+        display: inline-flex;
         margin-top: 2rem;
     }
       
