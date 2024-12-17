@@ -27,7 +27,7 @@ body {
 .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
     color: #6a6a6a;
-    margin: 1.5 rem 0rem;
+    margin: 1.5rem 0rem;
 }
 
 .secondary-button {
