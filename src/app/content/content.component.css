@@ -67,4 +67,9 @@
         justify-content: center;
         align-items: flex-start;
     }
+    
+    .secondary-button a {
+        color: black;
+        text-decoration: none;
+    }
 }
