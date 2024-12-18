@@ -1,6 +1,7 @@
 .footer-wrapper {
     margin: 6rem 10rem;
     display: flex;
+    justify-content: center;
 }
   
 .footer-logo-container {
@@ -26,10 +27,9 @@
 }
   
 .footer-section-two {
-    flex: 1;
-    display: flex;
     justify-content: center;
     padding-top: 30px;
+    display: grid;
 }
   
 .footer-section-colums {
@@ -38,11 +38,11 @@
     min-width: 190px;
 }
   
-.footer-section-colums span {
+.footer-section-colums a {
     margin: 0.25rem 0;
     font-weight: 600;
     color: #1d1c1c;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 950px) {
@@ -83,10 +83,10 @@
         min-width: 190px;
     }
       
-    .footer-section-colums span {
+    .footer-section-colums a {
         margin: 0.25rem 0;
         font-weight: 600;
         color: #1d1c1c;
-        cursor: pointer;
+        text-decoration: none;
     }
 }
