@@ -2,7 +2,7 @@
     .container {
         display: none;
     }
-    
+
     .dropdown {
         display: none;
     }
@@ -23,11 +23,18 @@
     }
     
     .navbar-links-container a {
-        margin-right: 3rem;
+        padding: 12px 16px;
+        margin-right: 1rem;
         text-decoration: none;
         color: black;
         font-size: 1.1rem;
         font-weight: 600;
+    }
+
+    .navbar-links-container a:hover {
+        padding: 12px 16px;
+        background-color: #318a8a;
+        border-radius: 20px;
     }
 
     .navbar-menu-container {
