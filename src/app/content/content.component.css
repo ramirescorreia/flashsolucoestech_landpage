@@ -32,3 +32,44 @@
     align-items: flex-start;
 }
 
+@media screen and (max-width: 950px) {
+    .home-banner-container {
+        position: relative;
+        display: block;
+        padding-top: 4rem;
+    }
+
+    .home-bannerImage-container {
+        position: absolute;
+        top: -100px;
+        right: -150px;
+        z-index: -2;
+        max-width: 100%;
+    }
+    
+    .home-image-section {
+        flex: 1;
+        display: table;
+        margin: 0px auto;
+        justify-self: center;
+    }
+    .home-primary-image img {
+        width: 360px;
+        height: 400px;
+        object-fit: cover;
+        margin-left: 0px;
+    }
+    
+    .home-text-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .secondary-button a {
+        color: black;
+        text-decoration: none;
+    }
+}
