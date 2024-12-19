@@ -14,7 +14,7 @@ import { FooterComponent } from '../footer/footer.component';
     AboutComponent, 
     WorkComponent, 
     EvaluationComponent, 
-    EvaluationComponent, 
+    EvaluationComponent,
     FooterComponent
   ],
   standalone: true,
