@@ -6,4 +6,5 @@ export const routes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'politica-de-privacidade', component: PoliticaPrivacidadeComponent},
     {path: '', redirectTo: 'home', pathMatch: 'full'}
+    
 ];
