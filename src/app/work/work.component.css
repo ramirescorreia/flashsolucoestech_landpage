@@ -40,3 +40,12 @@
     font-size: 100px;
     color: rgb(16, 126, 126);
 }
+
+@media screen and (max-width: 950px) {
+    .primary-subheading {
+        font-weight: 700;
+        color: rgb(53, 126, 126);
+        font-size: 3rem;
+        text-align: center;
+    }
+}

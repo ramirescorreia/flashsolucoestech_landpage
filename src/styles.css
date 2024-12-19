@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,48 +7,22 @@
     font-family: "Reem Kufi", sans-serif !important;
 }
 
+.app {
+    min-height: 100vh;
+    width: 90vw;
+    max-width: 1900px;
+    margin: 0rem auto;
+}
+
 img {
     max-width: 100%;
     height: auto;
-}
-  
-.app {
-    min-height: 100vh;
-    width: 85vw;
-    max-width: 1900px;
-    margin: 0rem auto;
 }
   
 body {
     max-width: 100%;
     overflow-x: hidden;
     background-color: #ffffff;
-}
-
-@media (max-width: 1000px) {
-    .navbar-links-container a {
-      margin-right: 1rem;
-      font-size: 1rem;
-    }
-    .primary-button {
-      font-size: 1rem;
-    }
-    .home-bannerImage-container {
-      max-width: 600px;
-    }
-}
-
-@media (max-width: 800px) {
-    /* navbar*/
-    .nav-logo-container {
-      max-width: 100px;
-    }
-    .navbar-links-container {
-      display: none;
-    }
-    .navbar-menu-container {
-      display: flex;
-    }
 }
 
 .primary-heading {
@@ -59,7 +34,7 @@ body {
 .primary-text {
     font-size: clamp(1rem, 3vw, 1.5rem);
     color: #6a6a6a;
-    margin: 1.5 rem 0rem;
+    margin: 1.5rem 0rem;
 }
 
 .secondary-button {
@@ -105,10 +80,4 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-@media (max-width: 600px) {
-  .home-bannerImage-container {
-    display: none;
-  }
 }
