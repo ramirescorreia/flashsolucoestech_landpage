@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { gerarUrlWhatsApp } from '../utils/utiil';
 
 @Component({
   selector: 'app-argumentos',
@@ -6,6 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './argumentos.component.html',
   styleUrl: './argumentos.component.css'
 })
-export class ArgumentosComponent {
+export class ArgumentosComponent implements OnInit{
+  urlWhatsApp:string;
 
+  ngOnInit(): void {
+    this.urlWhatsApp = gerarUrlWhatsApp();
+  } 
 }
