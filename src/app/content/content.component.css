@@ -55,9 +55,9 @@
         justify-self: center;
     }
     .content-primary-image img {
-        width: 360px;
-        height: 400px;
-        object-fit: cover;
+        width: 355px;
+        height: 355px;
+        object-fit: contain;
         margin-left: 0px;
     }
     
