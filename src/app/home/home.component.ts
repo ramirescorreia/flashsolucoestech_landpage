@@ -3,8 +3,8 @@ import { MenuComponent } from '../menu/menu.component';
 import { ContentComponent } from '../content/content.component';
 import { AboutComponent } from '../about/about.component';
 import { WorkComponent } from '../work/work.component';
-import { EvaluationComponent } from '../evaluation/evaluation.component';
 import { FooterComponent } from '../footer/footer.component';
+import { ArgumentosComponent } from '../argumentos/argumentos.component';
 
 @Component({
   selector: 'app-home',
@@ -12,9 +12,8 @@ import { FooterComponent } from '../footer/footer.component';
     MenuComponent, 
     ContentComponent, 
     AboutComponent, 
-    WorkComponent, 
-    EvaluationComponent, 
-    EvaluationComponent,
+    WorkComponent,
+    ArgumentosComponent,
     FooterComponent
   ],
   standalone: true,
