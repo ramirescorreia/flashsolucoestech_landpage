@@ -38,6 +38,7 @@ body {
 }
 
 .secondary-button {
+    width: 21rem;
     padding: 1rem 2.5rem;
     background-color: rgb(49, 138, 138);
     outline: none;
@@ -52,6 +53,11 @@ body {
     justify-content: center;
 }
   
+.secondary-button a {
+    color: black;
+    text-decoration: none;
+}
+
 .secondary-button:hover {
     background-color: rgb(122, 202, 202);
 }
@@ -69,7 +75,7 @@ body {
 }
 
 .work-section-wrapper {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,4 +87,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 950px) {
+    .secondary-button:hover {
+        background-color: rgb(122, 202, 202) !important;
+    }
 }
