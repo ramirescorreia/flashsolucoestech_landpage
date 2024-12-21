@@ -33,7 +33,7 @@
 
     .navbar-links-container a:hover {
         padding: 12px 16px;
-        background-color: #318a8a;
+        background-color: rgb(122, 202, 202);
         border-radius: 20px;
     }
 
